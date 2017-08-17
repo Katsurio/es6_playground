@@ -1,0 +1,1 @@
+let revStr = (str) => str.split('').reverse().join('');

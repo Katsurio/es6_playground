@@ -5,5 +5,4 @@ function titleCase(s){
         });
     return output.join(' ');
 }
-
 console.log(titleCase("I'm a little tea pot"));

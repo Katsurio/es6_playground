@@ -9,7 +9,7 @@
     it will look like [3,5,20] and 19 is less than 20 (index 2) and greater than 5 (index 1).
 */
 
-function getIndexToIns(arr, num) {
+function getIndexToIns1(arr, num) {
     arr.sort(function (a, b) {
         return a - b;
     });
@@ -20,5 +20,20 @@ function getIndexToIns(arr, num) {
     }
     return arr.length;
 }
+console.log(getIndexToIns1([2, 5, 10], 15));
 
-console.log(getIndexToIns([2, 5, 10], 15));
+
+
+function getIndexToIns2(arr, num) {
+    arr.push(num);
+    arr.sort(function (a, b) {return a - b;});
+    return arr.indexOf(num);
+}
+console.log(getIndexToIns2([2, 5, 10], 15));
+
+
+
+function getIndexToIns3(arr, num) {
+    return arr.concat(num).sort((a, b) => a - b).indexOf(num);
+}
+console.log(getIndexToIns3([2, 5, 10], 15));

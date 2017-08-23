@@ -1,0 +1,39 @@
+/* wrappers */
+body {
+  background-color: #66be69;
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrapper-quote {
+    background-color: #9C65BD;
+    height: 80%;
+    width: 50%;
+}
+/* END-wrappers */
+
+
+/* helper classes */
+  .position-ab {
+      position: absolute;
+  }
+
+.position-rel {
+    position: relative;
+}
+
+.position-dead-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.width-full {
+    width: 100%;
+}
+
+.height-full {
+    height: 100%
+}
+/* END-helper classes */

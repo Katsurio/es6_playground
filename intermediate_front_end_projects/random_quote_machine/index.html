@@ -12,13 +12,41 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
     <script src="index.js"></script>
 </head>
-<body class="position-rel bg-purp">
-<div class="wrapper-quote height-half position-abs position-dead-center p-xl">
-    <i class="fa fa-quote-left position-rel display-ib fs-4rem"></i>
-    <div class="content-quote position-rel display-ib fs-4rem"></div>
-    <h3 class="content-quote-author position-rel ta-right m-md"></h3>
-    <button type="button" class="btn"><i class="fa fa-twitter"></i></button>
-    <button id="shuffle" type="button" class="btn btn-lg float-r">New Quote</button>
+<body class="position-rel bg-purp container">
+
+<div class="col-xs-11 col-xs-offset-1 position-dead-center position-abs">
+
+    <div class="row">
+        <div class="col-xs-10 wrapper-quote">
+            <i class="col-xs-1 fa fa-quote-left position-rel display-ib fs-3rem"></i>
+            <div class="col-xs-11 content-quote position-rel display-ib fs-3rem"></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-10 wrapper-quote">
+            <div class="col-xs-3content-quote-author position-rel ta-right m-md"></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-2 wrapper-quote">
+            <div class="col-xs-6 col-xs-offset-6 pull-right content-quote-author fs-2rem"></div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-xs-8 wrapper-quote">
+            <button type="button" class="btn btn-xs col-xs-1 col-xs-offset-1 fs-3rem">
+                <a class="twitter-share-button fc-purp"
+                   href="https://twitter.com/intent/tweet?hashtags=quotes&amp;text=">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </button>
+            <button id="shuffle" type="button" class="btn btn-lg col-xs-3 col-xs-offset-7 pull-right fc-purp">New Quote</button>
+        </div>
+    </div>
+
 </div>
 </body>
 </html>

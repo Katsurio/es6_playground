@@ -5,16 +5,20 @@
     <title>Random Quoter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+
+    <link rel="stylesheet prefetch" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
     <script src="index.js"></script>
 </head>
-<body class = "position-rel">
-<div class = "wrapper-quote dead-center position-dead-center">
-    <i class="fa fa-quote-left"></i>
-    <h1 class = "content-quote position-dead-center">Yo</h1>
-    <h3 class = "content-quote-author position-a">Moobs</h3>
+<body class="position-rel bg-purp">
+<div class="wrapper-quote height-half position-abs position-dead-center p-xl">
+    <i class="fa fa-quote-left position-rel display-ib fs-4rem"></i>
+    <div class="content-quote position-rel display-ib fs-4rem"></div>
+    <h3 class="content-quote-author position-rel ta-right m-md"></h3>
+    <button type="button" class="btn"><i class="fa fa-twitter"></i></button>
+    <button id="shuffle" type="button" class="btn btn-lg float-r">New Quote</button>
 </div>
 </body>
 </html>
